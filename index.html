@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/1.jpg" alt="">
+            <p>Os pogues precisam da sua ajuda para recuperar o ouro que Ward roubou, você aceita a proposta?</p>
+            <button class="btn-proximo" data-proximo="1">Não, prefiro não me envolver</button>
+            <button class="btn-proximo" data-proximo="2">Sim, aceito o desafio</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Os pogues tentam te convencer a ajudá-los, pois sem você eles não iram conseguir</p>
+            <button class="btn-proximo" data-proximo="3">Mudar de ideia e ajudar os pogues</button>
+            <button class="btn-proximo" data-proximo="4">Negar e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Sarah descobre que seu pai escondeu a localização do ouro em algum lugar em Charleston</p>
+            <button class="btn-proximo" data-proximo="5">Ir para o escritório</button>
+            <button class="btn-proximo" data-proximo="6">Ir para o quarto de Rafe</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Sarah descobre que seu pai levou o ouro para as Bahamas</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para as Bahamas</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/2.webp" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você volta para casa com os pogues e Ward leva o ouro para longe</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>No escritório, você descobre um mapa escondido, apontando que a próxima
+                pista está nas Bahamas.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para as Bahamas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Indo para o quarto de Rafe, você o encontra dormindo.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar em silencio e ir para o escritório</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Nas Bahamas, a busca pelo ouro se intensifica. Você se depara com dois caminhos.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir Cleo no barco</button>
+            <button class="btn-proximo" data-proximo="10">Seguir JJ com um carro roubado</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Agora no escritório, você finalmente encontra o mapa escondido. Agora, para as Bahamas!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para as Bahamas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Cleo leva você de barco até a casa de Ward e Sarah pega a chave da casa.</p>
+            <button class="btn-proximo" data-proximo="11">Entrar e pegar o ouro</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>JJ se depara com Ward e policiais no meio do caminho.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e ir de barco com Cleo</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/3.jfif" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da casa, você encontra o ouro escondido em um cofre e o leva de volta para Outer Banks</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e indo com Cleo, você finalmente consegue chegar na casa de Ward e Sarah acha a chave.</p>
+            <button class="btn-proximo" data-proximo="11">Entrar e pegar o ouro</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
